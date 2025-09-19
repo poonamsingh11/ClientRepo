@@ -1,1 +1,30 @@
- @import "tailwindcss";
+/* Custom CSS for larger cards with hover effects */
+.text-purple {
+  color: #6f42c1 !important;
+}
+
+.bg-purple {
+  background-color: #6f42c1 !important;
+}
+
+.feature-card, .quick-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover, .quick-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.btn {
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
